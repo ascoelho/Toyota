@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		43E8BB8F1CB2E16C00356ECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8BB8E1CB2E16C00356ECB /* main.m */; };
+		43E8BB971CB2E29F00356ECB /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8BB961CB2E29F00356ECB /* Car.m */; };
+		43E8BB9A1CB2E52E00356ECB /* Toyota.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E8BB991CB2E52E00356ECB /* Toyota.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		43E8BB8B1CB2E16C00356ECB /* Toyota */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Toyota; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E8BB8E1CB2E16C00356ECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43E8BB951CB2E29F00356ECB /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		43E8BB961CB2E29F00356ECB /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		43E8BB981CB2E52E00356ECB /* Toyota.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toyota.h; sourceTree = "<group>"; };
+		43E8BB991CB2E52E00356ECB /* Toyota.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toyota.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				43E8BB8E1CB2E16C00356ECB /* main.m */,
+				43E8BB951CB2E29F00356ECB /* Car.h */,
+				43E8BB961CB2E29F00356ECB /* Car.m */,
+				43E8BB981CB2E52E00356ECB /* Toyota.h */,
+				43E8BB991CB2E52E00356ECB /* Toyota.m */,
 			);
 			path = Toyota;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43E8BB9A1CB2E52E00356ECB /* Toyota.m in Sources */,
+				43E8BB971CB2E29F00356ECB /* Car.m in Sources */,
 				43E8BB8F1CB2E16C00356ECB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

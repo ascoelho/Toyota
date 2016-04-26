@@ -7,11 +7,30 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Car.h"
+#import "Toyota.h"
+
+
+
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Car *nissan = [[Car alloc] initWithModel:@"Rogue"];
+        
+        
+        [nissan drive:nissan.model];
+        
+        Toyota *toyota = [[Toyota alloc] init];
+        
+        [toyota drive:toyota.model];
+        
+        
+        NSArray *list = @[@44, @5, @6];
+        
+        [nissan largerstNumber:list];
+    
+        
+        
     }
     return 0;
 }
